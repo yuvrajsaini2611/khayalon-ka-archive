@@ -7,11 +7,13 @@ import HomePage from "./pages/HomePage"
 import PostPage from "./pages/PostPage"
 import AboutPage from "./pages/AboutPage"
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrolltoTop";
 
 function App(){
   return(
     <div className="min-h-screen bg-paper">
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/post/:slug" element={<PostPage />} />
