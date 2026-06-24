@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Lora", serif;
+  --font-ui: "Poppins", sans-serif;
+
+  --color-paper: #F8F5EF;
+  --color-paperdark: #F4EFE6;
+  --color-ink: #2B2118;
+  --color-inklight: #5C5148;
+  --color-gold: #B08968;
+  --color-brown: #7F5539;
+}
+
+body {
+  background-color: #F8F5EF;
+  color: #2B2118;
+  font-family: "Lora", serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
