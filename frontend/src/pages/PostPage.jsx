@@ -51,8 +51,13 @@ export default function PostPage() {
         {Array.isArray(post.content) ? (
           <GhazalContent content={post.content} />
         ) : (
-          <p>{post.content}</p>
+          <div className="space-y-6">
+            {post.content.split('\n\n').map((para, i) => (
+              <p key={i}>{para}</p>
+            ))}
+          </div>
         )}
+        
       </div>
 
     </article>

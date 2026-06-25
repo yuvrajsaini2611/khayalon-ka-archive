@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className='max-w-3xl mx-auto flex flex-col items-center px-8 py-12 border-t border-stone-200'>
 
-        <p className='font-heading text-2xl'>लफ़्ज़ों में जो खो जाए, वो यहाँ मिल जाता है</p>
+        <p className='font-heading text-lg md:text-2xl'>लफ़्ज़ों में जो खो जाए, वो यहाँ मिल जाता है</p>
         <p className='font-ui text-xs text-gold'>Welcome to the caravan of thoughts!</p>
 
         {/* Divider */}
